@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding:0 ;
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
      
 
 }
@@ -134,8 +135,6 @@ html{
     color: blue;
     cursor: pointer;
 }
-
-
 .to-top.active{
     bottom: 32px;
     pointer-events: auto;
@@ -160,11 +159,11 @@ html{
     text-align: center;
     margin-top: 20px;
 }
-
 .box{
     padding: 10px 10px;
     text-align: center;
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1) ;
+
 }
 .skill{
     padding-top: 20px;  
@@ -179,17 +178,6 @@ html{
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1) ;
 
 }
-.services-box:hover{
-    background-color: #2C73D2;
-    color: white;
-    transition: .8s;
-    border: 1px solid black;
-    transition: .9s;
-
-    
-
-}
-
 .works{
     margin-top: 20px;
     
@@ -252,6 +240,9 @@ html{
 .row img:hover{
   opacity: .8;
 }
+.contact{
+    margin-bottom: 30px;
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -280,8 +271,8 @@ input[type=submit]:hover {
   }
   @media(max-width: 768px){
       .about{
-        width: 40%;
-        left: -40%;
+        width: 50%;
+        left: -50%;
       }
       .intro-text{
           width: 100%;
@@ -307,7 +298,7 @@ input[type=submit]:hover {
       }
     
     .link-1{
-        margin-left: 20px;
+        margin-left: 30px;
     }
       
 

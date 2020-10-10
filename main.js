@@ -39,12 +39,11 @@ AOS.init();
 // loading screen j-query
 $(window).on("load",function()
 {
-  $(".loading-overlay .sk-folding-cube").fadeOut(1000,function(){
-        $(this).parent().fadeOut(1000,function(){
-              $(this).remove();
-        });
-  });
-
-   
+ $(".loading-overlay .sk-folding-cube").fadeOut(2000,function(){
+        $(this).parent().fadeOut(2000,function(){
+            $("body").css("overflow","auto");
+            $(this).remove();
+    });
+  }); 
 });
 
