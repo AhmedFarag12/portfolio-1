@@ -238,8 +238,9 @@ html{
      width: 100%;
  }
 .row img:hover{
-  opacity: .8;
+    opacity: .7;
 }
+
 .contact{
     margin-bottom: 30px;
 }
@@ -285,16 +286,17 @@ input[type=submit]:hover {
           z-index: 10000;
           right: 20px;
       }
-      .sk-folding-cube{
+        .sk-folding-cube{
         margin: 40px auto;
         width: 60px;
         height: 60px;
         position: relative;
         -webkit-transform: rotateZ(45deg);
-                transform: rotateZ(45deg);
-                transform: translate(-50%,-50%);
-                top: 50%;
-                left: 10%;
+        transform: rotateZ(45deg);
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 10%;
+               
       }
     
     .link-1{
