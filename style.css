@@ -147,13 +147,16 @@ html{
 
 }
 .about-me button{
-    color: black;
+    color: white;
     background-color: white;
+    border: none;
+    background-color: blue;
 }
 .about-me button:hover{
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: white;
     transition: .8s;
+    border: 1px solid blue;
 }
 .about-btn{
     text-align: center;
